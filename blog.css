@@ -5,19 +5,18 @@ html,body {
   width: 100%;
   padding: 0;
   margin: 0;
-  
 }
+
 
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(80, 120, 120);
-  color: rgb(11, 0, 0);
-  
+  background-color: rgb(255, 255, 255);
+  color: rgb(11, 0, 0); 
 }
 
 .background-img {
-  background-color: rgb(185, 209, 232);
+  background-color: rgb(175, 198, 219);
   color: rgb(0, 0, 0);
   background-image: url(roche.jpg);
   background-position: center;
@@ -27,12 +26,10 @@ body {
 }
 
 .home-header{
-  
-  padding-top: 10vh;
+  padding-top: 0.5vh;
   font-size: 120px;
   font-family: 'Staatliches';
   color: black;
-
 }
 
 .home-subtitle{
@@ -42,29 +39,30 @@ body {
 
 }
 
+nav {
+  background-color:black;
+  width: 100%; 
+  text-align: center; 
+}
 
 nav > ul > li {
-  list-style: none;
+  display: inline-block; 
   padding: 10px;
-  margin: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav > ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  list-style: none;
   padding: 0;
+  margin: 0;
+  display: inline-block;
 }
 
 nav > ul > li > a {
-  font-size: 25px;
+  display: block;
+  color: white; 
+  text-align: center;
   text-decoration: none;
-  color: rgb(0, 0, 0);
-}
-
-nav > ul > li > a:hover {
-  text-decoration: underline;
 }
 
 main {
@@ -72,7 +70,7 @@ main {
 }
 
 .text-overview{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
@@ -83,160 +81,169 @@ img {
   display: block; 
 }
 
-.picture-john {
+.picturetower {
   width: auto;
-  height: 100px;
+  height: 150px;
   padding: 5px;
-  border: 5px solid white;
 }
 
-a {
-  display: inline-block;
-  padding-left: .5em;
-  text-decoration: underline; 
-  color: white; 
-}
-
-.ki_blog {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-}
-
-.ki_body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(100, 104, 104);
-  color: white;
-}
-
-.robot_img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px; 
-  height: 250px; 
-  border: 5px solid white;
-}
-
-.deep_img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px; 
-  height: 250px; 
+.picturebasel {
+  width: auto;
+  height: 250px;
+  padding: 10px;
   border: 5px solid rgb(0, 0, 0);
 }
 
-.schwache_img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px; 
-  height: 250px; 
-  border: 5px solid rgb(0, 0, 0);
-}
-
-.chat_img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px; 
-  height: 250px; 
-  border: 5px solid rgb(255, 255, 255);
-}
-
-.chatgpt_blog{
-  font-family: monospace;
-  font-size: 50px;
-}
-
-.chatgpt_body{
+.Geschichte_body{
   margin: 0;
   padding: 0;
-  background-color: rgb(85, 160, 129);
-  color: rgb(0, 0, 0);
+  background-color: rgb(157, 186, 211);
+  color: rgb(11, 0, 0); 
 }
 
-.neue_schrift{
-  color: black;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+* {
+  box-sizing: border-box;
 }
 
-.chat_ex{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 450px; 
-  height: 300px; 
-  border: 5px solid rgb(255, 255, 255);
+
+body {
+  font-family: Helvetica, sans-serif;
 }
 
-.text-center {
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: rgb(0, 0, 0);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: rgb(206, 204, 237);
+  border: 4px solid #263393;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+.left {
+  left: 0;
+}
+
+
+.right {
+  left: 50%;
+}
+
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+
+.right::after {
+  left: -16px;
+}
+
+
+.content {
+  padding: 20px 30px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 6px;
+}
+
+
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+
+  .right {
+    left: 0%;
+  }
+}
+
+.text_geschichte {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
 }
 
-.img_container {
-  display:flex ;
-}
 
-.deeplearning-text{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
-.deeplearning-body{
-  margin: 0;
-  padding: 0;
-  background-color: rgb(31, 58, 36);
-  color: rgb(255, 255, 255);
-}
 
-.neuronale_body{
-  margin: 0;
-  padding: 0;
-  background-color: rgb(102, 95, 145);
-  color: rgb(255, 255, 255);
-}
 
-.neuronale_text{
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
-.gehirn-img{
-  display:flex;
-}
-
-.beispiel-img{
-  display: flex;
-}
-
-.text-left{
-  text-align:left;
-}
-
-.text-right{
-  text-align:right;
-}
-
-.zukunft-body{
-  margin: 0;
-  padding: 0;
-  background-color: rgb(148, 179, 225);
-  color: rgb(0, 0, 0);
-}
-
-.zukunft-text{
-  font-family:'Courier New', Courier, monospace
-}
-
-.ziffer-text{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.ziffer_body{
-  margin: 0;
-  padding: 0;
-  background-color: rgb(156, 181, 114);
-  color: rgb(0, 0, 0);
-}
 
 
