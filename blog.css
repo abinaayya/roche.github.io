@@ -101,24 +101,23 @@ img {
   color: rgb(11, 0, 0); 
 }
 
-
+body {
+  font-family: Helvetica, sans-serif;
+}
 
 * {
   box-sizing: border-box;
 }
 
-
 body {
   font-family: Helvetica, sans-serif;
 }
-
 
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
-
 
 .timeline::after {
   content: '';
@@ -130,7 +129,6 @@ body {
   left: 50%;
   margin-left: -3px;
 }
-
 
 .container {
   padding: 10px 40px;
@@ -153,16 +151,13 @@ body {
   z-index: 1;
 }
 
-
 .left {
   left: 0;
 }
 
-
 .right {
   left: 50%;
 }
-
 
 .left::before {
   content: " ";
@@ -177,7 +172,6 @@ body {
   border-color: transparent transparent transparent white;
 }
 
-
 .right::before {
   content: " ";
   height: 0;
@@ -191,11 +185,9 @@ body {
   border-color: transparent white transparent transparent;
 }
 
-
 .right::after {
   left: -16px;
 }
-
 
 .content {
   padding: 20px 30px;
@@ -204,20 +196,17 @@ body {
   border-radius: 6px;
 }
 
-
 @media screen and (max-width: 600px) {
-/* Place the timelime to the left */
+  /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
   }
-
 
   .container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
-
 
   .container::before {
     left: 60px;
@@ -226,16 +215,18 @@ body {
     border-color: transparent white transparent transparent;
   }
 
-
   .left::after, .right::after {
     left: 15px;
   }
-
 
   .right {
     left: 0%;
   }
 }
+
+
+
+
 
 .text_geschichte {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -287,6 +278,12 @@ body {
   color: rgb(11, 0, 0); 
 }
 
+.fritz {
+  width: auto;
+  height: 250px;
+  padding: 10px;
+  border: 5px solid rgb(0, 0, 0);
+}
 
 
 
