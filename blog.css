@@ -36,34 +36,63 @@ body {
   
   padding-top: 60vh;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
 }
-
 nav {
-  background-color:black;
-  width: 100%; 
-  text-align: center; 
+  background-color: black;
+  width: 100%;
+  text-align: center;
 }
 
-nav > ul > li {
-  display: inline-block; 
-  padding: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-nav > ul {
+nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: inline-block;
 }
 
-nav > ul > li > a {
+nav ul > li {
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+}
+
+nav ul > li > a {
   display: block;
-  color: white; 
+  color: white;
   text-align: center;
   text-decoration: none;
 }
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%; /* Das Dropdown-Menü wird zu 50% der Breite des Elternelements verschoben */
+  transform: translateX(-50%); /* Um es horizontal zu zentrieren */
+  width: 100%; /* Dropdown-Menü auf volle Breite einstellen */
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dropdown-menu li {
+  display: block;
+}
+
+.dropdown-menu li a {
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 
 main {
   padding: 20px 50px;;
@@ -144,8 +173,8 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(206, 204, 237);
-  border: 4px solid #263393;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid #000000;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -226,8 +255,6 @@ body {
 
 
 
-
-
 .text_geschichte {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
@@ -284,6 +311,17 @@ body {
   padding: 10px;
   border: 5px solid rgb(0, 0, 0);
 }
+
+.Unterseite1 {
+  background-color: transparent;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+
+
 
 
 
