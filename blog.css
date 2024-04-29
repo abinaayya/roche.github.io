@@ -323,7 +323,7 @@ body {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1px;
   box-sizing: border-box;
 }
 
@@ -368,9 +368,49 @@ body {
   text-align:center;
 }
 
+.einleitung2{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1px;
+  box-sizing: border-box;
+}
 
+.airol-sirolinimg{
+  display:flex;
+}
 
+.pictura-s {
+  width: auto;
+  height: 250px;
+  padding: 10px;
+  
+}
 
+.airol-sirolinimg {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.bild-s-a{
+  margin-right: 20px; 
+}
+
+.bild-s-a img {
+  width: 60%; 
+  height: auto; 
+  border: 5px solid rgb(23, 6, 99);
+}
+
+.grab{
+  margin-right: 20px; 
+}
+
+.grab img  {
+  width: 30%; 
+  height: 55%; 
+  border: 5px solid rgb(23, 6, 99);
+}
 
 
 
