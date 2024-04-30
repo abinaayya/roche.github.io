@@ -412,6 +412,24 @@ body {
   border: 5px solid rgb(23, 6, 99);
 }
 
+.vertrag img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.body_g_hintergrund{
+  background-image: url("vintage.webp");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 
 
 
