@@ -434,6 +434,26 @@ body {
  text-align: center;
 }
 
+/* Standard-Stile für Desktop */
+/* Fügen Sie hier Ihre Standard-Stile für Desktop hinzu */
+
+/* Media Query für Bildschirme mit einer maximalen Breite von 768px (Tablets und kleinere Bildschirme) */
+@media screen and (max-width: 768px) {
+  /* CSS-Regeln für Bildschirme mit einer maximalen Breite von 768px */
+  /* Fügen Sie hier Ihre Stile für kleinere Bildschirme hinzu */
+}
+
+/* Media Query für Bildschirme mit einer maximalen Breite von 480px (Smartphones und kleinere Bildschirme) */
+@media screen and (max-width: 480px) {
+  /* CSS-Regeln für Bildschirme mit einer maximalen Breite von 480px */
+  /* Fügen Sie hier Ihre Stile für noch kleinere Bildschirme hinzu, wenn nötig */
+}
+/* Media Query für sehr große Bildschirme (über 1200px Breite) */
+@media screen and (min-width: 1200px) {
+  /* CSS-Regeln für sehr große Bildschirme */
+  /* Fügen Sie hier zusätzliche Stile für sehr große Bildschirme hinzu, wenn nötig */
+}
+
 
 
 
