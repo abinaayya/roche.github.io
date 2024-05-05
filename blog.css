@@ -62,19 +62,19 @@ nav ul > li > a {
   text-align: center;
   text-decoration: none;
 }
-
 .dropdown-menu {
   display: none;
   position: absolute;
   top: 100%;
   left: 50%; /* Das Dropdown-Menü wird zu 50% der Breite des Elternelements verschoben */
   transform: translateX(-50%); /* Um es horizontal zu zentrieren */
-  width: 100%; /* Dropdown-Menü auf volle Breite einstellen */
+  width: 200px; /* Beispiel: Dropdown-Menü auf eine feste Breite von 200px einstellen */
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .dropdown-menu li {
   display: block;
+  width: 100%; /* Alle Dropdown-Elemente werden auf volle Breite eingestellt */
 }
 
 .dropdown-menu li a {
@@ -92,6 +92,7 @@ nav ul > li > a {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
 
 
 main {
