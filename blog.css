@@ -436,3 +436,107 @@ body {
 }
 
 
+.image-container1wk {
+  display: flex;
+  justify-content: space-around; /* Platz zwischen den Bildern */
+  padding: 20px; /* Abstand zum umgebenden Inhalt */
+}
+
+.image-item1wk {
+  text-align: center; /* Zentriert das Bild und die Beschreibung */
+  max-width: 45%; /* Begrenze die Breite der Bilder */
+}
+
+.image-item1wk img {
+  width: 100%; /* Das Bild nimmt die volle Breite des Containers ein */
+  height: auto; /* Beibehaltung des Seitenverhältnisses */
+  border-radius: 10px; /* Abgerundete Ecken */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Leichter Schatten um die Bilder */
+}
+
+.image-item1wk p {
+  margin-top: 10px; /* Abstand zwischen Bild und Beschreibung */
+  font-size: 16px; /* Schriftgröße der Beschreibung */
+  color: #333; /* Farbe der Beschreibung */
+}
+
+.single-image-container1wk {
+  text-align: center; /* Zentriert das Bild und die Beschreibung */
+  margin: 20px auto; /* Abstand zum umgebenden Inhalt */
+  max-width: 60%; /* Begrenze die Breite des Containers */
+  padding: 20px;
+  background-color: #fff; /* Hintergrundfarbe */
+  border-radius: 10px; /* Abgerundete Ecken */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+}
+
+.single-image-container1wk img {
+  width: 100%; /* Das Bild nimmt die volle Breite des Containers ein */
+  height: auto; /* Beibehaltung des Seitenverhältnisses */
+  border-radius: 10px; /* Abgerundete Ecken */
+}
+
+.single-image-container1wk p {
+  margin-top: 10px; /* Abstand zwischen Bild und Beschreibung */
+  font-size: 16px; /* Schriftgröße der Beschreibung */
+  color: #333; /* Farbe der Beschreibung */
+}
+
+.h11wk {
+  font-size: 50px; /* Beispielgröße, passe diese nach Bedarf an */
+  font-weight: bold; /* Optional, um den Text fett zu machen */
+  margin-top: 20px; /* Optional, Abstand oben */
+  margin-bottom: 20px; /* Optional, Abstand unten */
+  color: #333; /* Optional, Textfarbe */
+}
+
+.zweiterwk_body {
+  margin: 0;
+  padding: 0;
+  background-color: #c1af8a;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Überschrift Stil */
+.h12wk {
+  text-align: center;
+  color: #000000;
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Text Container Stil */
+.text2wk {
+  background-color: #c2c1a2;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Absatz Stil */
+.text2wk p {
+  margin-bottom: 1.5em;
+}
+
+
+.great_dbody{
+margin: 0;
+padding: 0;
+background-color: rgb(191, 206, 219);
+color: rgb(11, 0, 0);
+}
+
+.seveso_body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(144, 150, 156);
+  color: rgb(11, 0, 0);
+  }
+
