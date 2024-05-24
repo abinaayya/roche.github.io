@@ -121,6 +121,8 @@ img {
   width: auto;
   height: 250px;
   padding: 10px;
+  display: inline;
+  margin-right: 10px;
   border: 5px solid rgb(0, 0, 0);
 }
 
@@ -539,4 +541,4 @@ color: rgb(11, 0, 0);
   background-color: rgb(144, 150, 156);
   color: rgb(11, 0, 0);
   }
-
+ 
